@@ -1,5 +1,5 @@
 # Ignore user directories
-Users/
+Users/*
 
 # Vim
 .*.sw*
