@@ -1,5 +1,5 @@
 #! /usr/bin/env bash
 cd `dirname $0`
 export PYTHONPATH=/home/ubuntu/JXHFET/:$(pwd):$PYTHONPATH
-jupyter notebook
+jupyter notebook --port=8889 --port-retries=0
 
